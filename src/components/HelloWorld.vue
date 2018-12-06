@@ -33,6 +33,9 @@
 <script>
 export default {
   name: 'HelloWorld',
+  responsive : {
+    hide : 1000
+  },
   props: {
     msg: String
   }
